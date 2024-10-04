@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.cell {
+    background-color: burlywood;
+   
+    border: 2px solid black;
+
+}
