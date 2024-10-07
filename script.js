@@ -39,7 +39,8 @@ createGrid(size);
 const cell = document.querySelector(".cell");
 div.addEventListener("mouseover", (e) => {
     if (e.target.classList.contains("cell")) {
-        e.target.style.backgroundColor = "rgba(255, 0, 0," + op + ")";
+        console.log(getRandomNUmber());
+        e.target.style.backgroundColor = color[getRandomNUmber()]+ op + ")";
         op += 0.10;
         console.log(op);
         if (op > 1) {
