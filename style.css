@@ -1,12 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
 .container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   align-content: center;
   flex-wrap: wrap;
 }
+
+
 .cell {
-    background-color: burlywood;
-   
-    border: 2px solid black;
+  background-color: rgb(255, 0, 0);
+  border: 1px solid black;
+  margin: 0;
 
 }
